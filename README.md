@@ -9,6 +9,9 @@ The repository contains inscription assets on TON blockchain.
 Folder name:
 
 URL-safe encode tick lowercase to Base64 format.
+For example, if your tick is `NANO`:
+1. To lowercase: `NANO` -> `nano`
+2. URL-safe encoding: `nano` -> `bmFubw`. You can perform encoding on [base64encode](https://www.base64encode.org/)
 
 info file fields:
 
